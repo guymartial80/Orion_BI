@@ -1,0 +1,7 @@
+-- Création du schéma de l'ODS Orion
+DROP SCHEMA IF EXISTS "ORION_ODS";
+CREATE SCHEMA "ORION_ODS";
+
+-- Création du schéma PARAMS_LOG de la base ORION
+DROP SCHEMA IF EXISTS "PARAMS_LOG";
+CREATE SCHEMA "PARAMS_LOG";
